@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true">
+  <div style="display: flex; justify-content: space-between; padding: 0.5em 1em">
+    <p>{{ languageService.translate("recipes") }}</p>
+    <ion-button>Filter</ion-button>
+  </div>
+
+  <div class="container">
+    <div *ngIf="recipes.length === 0">
+      <p>{{ 'No recipes' }}</p>
+    </div>
+
+    <div class="card-container" *ngIf="recipes.length > 0">
+      <ion-card *ngFor="let recipe of recipes">
+        <ion-img [src]="recipe.image" alt=""/>
+        <ion-card-header>
+          <ion-card-title>{{ recipe.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-card-subtitle>{{ recipe.description[currentLanguage]  }}</ion-card-subtitle>
+          <div>
+            <app-category-chip *ngFor="let category of recipe.categories" [categoryName]="category"></app-category-chip>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+
+
+</ion-content>

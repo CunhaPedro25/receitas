@@ -1,0 +1,10 @@
+{
+  "language": "pt",
+  "language_name": "Português",
+  "recipes": "Receitas",
+  "tabs": {
+    "home": "Início",
+    "history": "Historia",
+    "about": "Sobre"
+  }
+}

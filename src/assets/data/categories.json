@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cake",
+    "icon": "cafe-outline",
+    "translations": {
+      "en": "Cake",
+      "pt": "Bolo"
+    }
+  },
+  {
+    "id": "drink",
+    "icon": "beer-outline",
+    "translations": {
+      "en": "Drink",
+      "pt": "Bebida"
+    }
+  },
+  {
+    "id": "fish",
+    "icon": "fish-outline",
+    "translations": {
+      "en": "Fish",
+      "pt": "Peixe"
+    }
+  }
+]

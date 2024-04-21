@@ -1,0 +1,57 @@
+[
+  {
+    "image": "https://pt.petitchef.com/imgupl/recipe/torta-viana--65956p86245.jpg",
+    "name": "Torta de Viana",
+    "description": {
+      "en": "A rich and indulgent chocolate cake that's perfect for any occasion.",
+      "pt": "Um bolo de chocolate rico e indulgente, perfeito para qualquer ocasião."
+    },
+    "ingredients": [
+      {
+        "name": "Flour",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "name": "Cocoa Powder",
+        "quantity": "3/4 cup"
+      },
+      {
+        "name": "Baking Powder",
+        "quantity": "1 1/2 tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Vegetable Oil",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Vanilla Extract",
+        "quantity": "2 tsp"
+      },
+      {
+        "name": "Boiling Water",
+        "quantity": "1 cup"
+      }
+    ],
+    "preparation": {
+      "en": "1. Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.\n2. In a large bowl, combine flour, sugar, cocoa powder, baking powder, and salt. Add eggs, milk, oil, and vanilla extract; beat on medium speed for 2 minutes. Stir in boiling water until well combined.\n3. Pour batter evenly into prepared pans.\n4. Bake for 30 to 35 minutes or until a toothpick inserted into the center comes out clean. Cool in pans for 10 minutes, then remove from pans and cool completely on wire racks.\n5. Frost with your favorite chocolate frosting and enjoy!",
+      "pt": "1. Pré-aqueça o forno a 350°F (175°C). Unte e polvilhe com farinha duas formas de bolo redondas de 9 polegadas.\n2. Em uma tigela grande, misture a farinha, o açúcar, o cacau em pó, o fermento em pó e o sal. Adicione os ovos, o leite, o óleo e o extrato de baunilha; bata em velocidade média por 2 minutos. Mexa na água fervente até que esteja bem combinado.\n3. Despeje a massa igualmente nas formas preparadas.\n4. Asse por 30 a 35 minutos ou até que um palito inserido no centro saia limpo. Deixe esfriar nas formas por 10 minutos, depois remova das formas e deixe esfriar completamente em grades de arame.\n5. Cubra com sua cobertura de chocolate favorita e aproveite!"
+    },
+    "categories": ["cake"]
+  }
+]
