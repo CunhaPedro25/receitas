@@ -2,12 +2,14 @@
   "language": "pt",
   "language_name": "Português",
   "theres_no": "Não há",
+  "search": "Procurar",
   "recipe": "Receita",
   "restaurant": "Restaurante",
   "ingredients": "Ingredientes",
   "step": "Passo",
   "preparation_method": "Metodo Preparação",
   "see_in": "Ver no",
+  "history of": "História de",
   "options": {
     "recipes": "Receitas",
     "restaurants": "Restaurantes"

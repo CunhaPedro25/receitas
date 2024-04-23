@@ -1,6 +1,6 @@
 <ion-content [fullscreen]="true">
   <div class="header">
-    <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="filterData()"></ion-searchbar>
+    <ion-searchbar [placeholder]="languageService.translate('search')" [(ngModel)]="searchTerm" (ionInput)="filterData()"></ion-searchbar>
     <ion-select [(ngModel)]="currentLanguage" (ionChange)="switchLanguage()">
       <ion-select-option value="pt">PT</ion-select-option>
       <ion-select-option value="en">EN</ion-select-option>

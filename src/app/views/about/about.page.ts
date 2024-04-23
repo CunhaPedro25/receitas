@@ -19,12 +19,14 @@ export class AboutPage implements OnInit{
     this.loadAbout();
   }
 
+  // Reload translation whenever user enters page again, so it isnt in the wrong translation
   ionViewDidEnter(): void {
     this.currentLanguage = this.languageService.currentLanguage;
     this.languageService.switchLanguage(this.currentLanguage);
     this.loadAbout();
   }
 
+  // Call about service to get creator information
   loadAbout(): void {
     this.aboutService.getAboutInformation().then(about =>
       this.about = about

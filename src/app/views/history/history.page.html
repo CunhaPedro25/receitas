@@ -4,7 +4,8 @@
       <ion-img [src]="history.image"></ion-img>
     </div>
 
-    <h1>{{ history.title }}</h1>
+    <p class="subtitle">{{ languageService.translate("history of") }}</p>
+    <h1 class="title">{{ history.title }}</h1>
 
     <div class="paragraphs">
       <p *ngFor="let paragraph of history.paragraphs[currentLanguage]">{{ paragraph }}</p>

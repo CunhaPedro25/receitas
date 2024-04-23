@@ -4,6 +4,15 @@
   align-items: center;
 }
 
+.title{
+  margin: 0;
+}
+
+.subtitle{
+  margin-bottom: 0;
+  color: var(--ion-color-medium)
+}
+
 .image {
   height: 25vh;
   width: 100%;

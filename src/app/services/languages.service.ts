@@ -38,7 +38,8 @@ export class LanguageService {
     });
   }
 
-  // Translate a key to the current language
+  // Translate a key to the current language, this also checks if the key is from an array like "tabs.home"
+  // where translation is located inside tabs array
   translate(key: string): string {
     const keys = key.split('.');
     let translation = this.translations;

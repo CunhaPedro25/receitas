@@ -2,12 +2,14 @@
   "language": "en",
   "language_name": "English",
   "theres_no": "There's no",
+  "search": "Search",
   "recipe": "Recipe",
   "restaurant": "Restaurant",
   "ingredients": "Ingredients",
   "step": "Step",
   "preparation_method": "Preparation Method",
   "see_in": "See in",
+  "history of": "History of",
   "options": {
     "recipes": "Recipes",
     "restaurants": "Restaurants"

@@ -48,7 +48,7 @@
         "Quando a massa estiver feita, colocar a mesma sobre um pano de cozinha, e rechear a face virada para cima ainda com o bolo morno, e começar a enrolar."
       ]
     },
-    "categories": ["recipes.cake"]
+    "categories": ["recipes.cake", "recipes.dessert"]
   },
   {
     "image": "assets/images/bacalhau-viana.jpeg",
@@ -153,5 +153,150 @@
       ]
     },
     "categories": ["recipes.meat"]
+  },
+  {
+    "image": "assets/images/meias-luas.webp",
+    "name": "Meias Luas – Doce Conventual Vianense",
+    "description": {
+      "en": "A traditional Portuguese dessert from Viana do Castelo, known as Half Moons, is a delightful sweet treat enjoyed by many.",
+      "pt": "Um doce tradicional português de Viana do Castelo, conhecido como Meias Luas, é uma deliciosa guloseima apreciada por muitos."
+    },
+    "ingredients": {
+      "en": [
+        "300g Flour (approximately)",
+        "75g Butter (approximately)",
+        "2 dl Water",
+        "Salt and butter for frying",
+        "300g Sugar (approximately)",
+        "75g Almonds (approximately)",
+        "50g Cassava flour",
+        "6 to 7 Egg yolks"
+      ],
+      "pt": [
+        "300g de Farinha (aproximadamente)",
+        "75g de Manteiga (aproximadamente)",
+        "2 dl de Água",
+        "Sal e manteiga para fritar",
+        "300g de Açúcar (aproximadamente)",
+        "75g de Amêndoas (aproximadamente)",
+        "50g de Farinha de pau (mandioca)",
+        "6 a 7 Gemas de ovo"
+      ]
+    },
+    "preparation": {
+      "en": [
+        "On a countertop, sift the flour into a pile, making a well in the center. In this well, add the butter.",
+        "Mix the flour with the butter and add the necessary water until well combined.",
+        "Roll into a log and slice into rounds.",
+        "With the help of a rolling pin, roll out the dough and cut with a pastry wheel, forming the Half Moons.",
+        "Once ready, fry in butter.",
+        "When cool, sprinkle with powdered sugar."
+      ],
+      "pt": [
+        "Num balcão, peneire a farinha formando um monte, fazendo um buraco no centro. Neste buraco, adicione a manteiga.",
+        "Misture a farinha com a manteiga e adicione a água necessária até ficar bem trabalhada.",
+        "Enrole em um cilindro e corte em fatias.",
+        "Com a ajuda de um rolo, estenda a massa e corte com uma carretilha, formando as Meias Luas.",
+        "Depois de prontas, frite em manteiga.",
+        "Quando frias, polvilhe com açúcar em pó."
+      ]
+    },
+    "categories": ["recipes.dessert"]
+  },
+  {
+    "image": "assets/images/pescada-vianense.webp",
+    "name": "Pescada à Vianense",
+    "description": {
+      "en": "A delicious seafood dish, Pescada à Vianense is a traditional recipe from Viana do Castelo, featuring codfish medallions baked with potatoes, onions, and a flavorful blend of seasonings.",
+      "pt": "Um delicioso prato de frutos do mar, a Pescada à Vianense é uma receita tradicional de Viana do Castelo, apresentando medalhões de pescada assados com batatas, cebolas e uma mistura saborosa de temperos."
+    },
+    "ingredients": {
+      "en": [
+        "Codfish Medallions",
+        "Potatoes",
+        "Onions",
+        "Olive Oil",
+        "Garlic",
+        "Salt, lemon to taste",
+        "Mayonnaise"
+      ],
+      "pt": [
+        "Medalhões de Pescada",
+        "Batatas",
+        "Cebolas",
+        "Azeite",
+        "Alho",
+        "Sal, limão q.b.",
+        "Maionese"
+      ]
+    },
+    "preparation": {
+      "en": [
+        "The day before, season the codfish medallions with salt, lemon juice, and garlic.",
+        "On the day, drizzle the bottom of a baking dish with olive oil and place the sliced ​​potatoes.",
+        "Meanwhile, make a sauté with olive oil, plenty of onion, and garlic, which is placed on top of the potatoes.",
+        "Place the codfish medallions on top.",
+        "Spread with mayonnaise and bake in a preheated oven at 180°C."
+      ],
+      "pt": [
+        "No dia anterior, tempere os medalhões de pescada com sal, sumo de limão e alho.",
+        "No dia, regue o fundo de uma assadeira com azeite e coloque as batatas cortadas em rodelas.",
+        "Entretanto, faça um refogado com azeite, bastante cebola e alho que se coloca por cima das batatas.",
+        "Disponha os medalhões de pescada por cima.",
+        "Barrar com maionese e levar ao forno pré-aquecido a 180°C."
+      ]
+    },
+    "categories": ["recipes.seafood"]
+  },
+  {
+    "image": "assets/images/formigos-minho.webp",
+    "name": "Formigos à Moda do Minho",
+    "description": {
+      "en": "Formigos à Moda do Minho is a traditional Portuguese dessert, particularly popular in the Minho region. Made with bread, honey, sugar, and spices, it's a rich and comforting treat enjoyed during festive occasions.",
+      "pt": "Os Formigos à Moda do Minho são uma sobremesa tradicional portuguesa, especialmente popular na região do Minho. Feitos com pão, mel, açúcar e especiarias, são uma guloseima rica e reconfortante apreciada durante ocasiões festivas."
+    },
+    "ingredients": {
+      "en": [
+        "2.5 dl Water",
+        "2 tablespoons Honey",
+        "250 g Sugar",
+        "2 Cinnamon sticks",
+        "3 Lemon peels (tied with a string to the cinnamon sticks)",
+        "6 or 7 Small bread rolls",
+        "50 g Butter",
+        "3 Eggs",
+        "1 Glass of Port wine",
+        "A pinch of salt, walnuts, pine nuts, raisins, cinnamon powder for sprinkling"
+      ],
+      "pt": [
+        "2,5 dl de Água",
+        "2 colheres (de sopa) de Mel",
+        "250 g de Açúcar",
+        "2 Paus de canela",
+        "3 Casquinhas de limão (atadas com um fio aos paus de canela)",
+        "6 ou 7 Pãezinhos",
+        "50 g de Manteiga",
+        "3 Ovos",
+        "1 Cálice de Vinho do Porto",
+        "1 Pitada de sal, nozes, pinhões, uvas passas, canela em pó para polvilhar"
+      ]
+    },
+    "preparation": {
+      "en": [
+        "Break the bread into very small pieces. Then, pour water into a saucepan with the cinnamon and lemon peel and a pinch of salt, bring to a boil, about 10 minutes.",
+        "Remove the cinnamon and lemon, add the bread and butter, stirring with a wooden spoon to break it up well; let it boil for 5 minutes.",
+        "Then add the honey and sugar, continue stirring to prevent sticking, letting it boil for a few more minutes (about 5).",
+        "Beat the egg yolks in a bowl, together with the Port wine and pour into the formigos. Add the nuts, pine nuts, and raisins, mix everything very well and bring to the heat.",
+        "Let it boil for 3 minutes, remove from the heat and fill the serving dishes. Let it cool and sprinkle with cinnamon, serve cold."
+      ],
+      "pt": [
+        "Parta o pão em pedaços muito pequeninos. Deite depois num tacho a água com a canela e a casca de limão e uma pitada de sal, leve ao lume até que ferva, cerca de 10 minutos.",
+        "Retire a canela e o limão, junte o pão e a manteiga, mexendo com uma colher de pau para se desfazer bem; deixe ferver durante 5 minutos.",
+        "Junte depois o mel e o açúcar, continue a mexer para não pegar, deixando ferver mais uns minutos (cerca de 5).",
+        "Bata as gemas numa malga, juntamente com o vinho do Porto e deite nos formigos. Junte as nozes, os pinhões e as uvas passas, mexa tudo muito bem e leve ao lume.",
+        "Deixe ferver 3 minutos, retire do lume e encha as travessas. Deixe arrefecer e polvilhe com a canela, comem-se frios."
+      ]
+    },
+    "categories": ["recipes.dessert"]
   }
 ]

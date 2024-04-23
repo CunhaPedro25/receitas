@@ -9,14 +9,20 @@ import { Category } from '../../models/category.model';
   styleUrls: ['./category-chip.component.scss']
 })
 export class CategoryChipComponent implements OnInit {
+  // Receber o nome da categoria por parâmetro
   @Input() categoryName: string = "";
+
+  // Guardar categoria utilizando Modelo de categoria
   category: Category | undefined;
-  currentLanguage: string = "";
+  currentLanguage: string = "";    //Utilizado para traduções
+
 
   constructor(protected languageService: LanguageService, private categoryService: CategoryService) { }
 
   ngOnInit(): void {
     this.currentLanguage = this.languageService.currentLanguage;
+    // Chamar o serviço de categorias para procurar a categoria por nome
     this.categoryService.getCategoryByName(this.categoryName).then((category: Category) => { this.category = category; });
   }
 }
+

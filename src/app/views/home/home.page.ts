@@ -35,6 +35,7 @@ export class HomePage implements OnInit {
     }
   }
 
+  // Used to switch between subpages, more subpages can be added easily
   onChange(): void {
     switch(this.selectedOption) {
       case "recipe":
@@ -57,6 +58,8 @@ export class HomePage implements OnInit {
     this.onChange();
   }
 
+  //Generic open page method that works for any card located in home page,
+  // if the card calls this function of course
   async openPage(index: number): Promise<void> {
     await this.router.navigate([`/${this.selectedOption}`, index]);
   }

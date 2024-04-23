@@ -19,8 +19,8 @@ export class RestaurantPage implements OnInit {
   async ngOnInit() {
     this.currentLanguage = this.languageService.currentLanguage;
     this.route.params.subscribe(async params => {
-      this.restaurantIndex = +params['id'];
-      this.restaurant = await this.restaurantService.getRestaurantById(this.restaurantIndex);
+      this.restaurantIndex = +params['id'];            // get url param ID
+      this.restaurant = await this.restaurantService.getRestaurantById(this.restaurantIndex);  // Get recipe by that id (could be all in one line)
     });
   }
 }

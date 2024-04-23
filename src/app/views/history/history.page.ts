@@ -19,6 +19,7 @@ export class HistoryPage implements OnInit {
     this.loadHistory();
   }
 
+  // Reload translation whenever user enters page again, so it isnt in the wrong translation
   ionViewDidEnter(): void {
     this.currentLanguage = this.languageService.currentLanguage;
     this.languageService.switchLanguage(this.currentLanguage);

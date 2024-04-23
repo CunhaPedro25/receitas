@@ -6,6 +6,8 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
+
+  // Added both these paths for the recipe and restaurant pages, that need an id param
   {
     path: 'recipe/:id',
     loadChildren: () => import('./views/recipe/recipe.module').then(m => m.RecipePageModule)

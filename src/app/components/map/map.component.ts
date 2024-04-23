@@ -14,6 +14,8 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   private map: Leaflet.Map | undefined;
+
+  // Metodo para inicializar o mapa com as configurtações necessárias
   private initMap(): void {
     this.map = Leaflet.map('map', {
       center: [ this.latitude, this.longitude ],
@@ -28,6 +30,7 @@ export class MapComponent implements OnInit {
 
     tiles.addTo(this.map);
 
+    // Adicionar marcador de acordo com as coordenadas
     Leaflet.marker([this.latitude, this.longitude], {
       icon: new Leaflet.Icon({
         iconSize: [50, 41],

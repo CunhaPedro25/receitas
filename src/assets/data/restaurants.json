@@ -1,22 +1,34 @@
 [
   {
+    "image": "../assets/images/camelo.webp",
+    "name": "Restaurante Camelo",
+    "description": {
+      "en": "In 25 years, they have expanded their capacity to 150 seats in the main room, 200 seats in the Jorge Amado room, 400 seats outdoors in the courtyard and annexes, now even more pleasant with a pergola of Loureiro wine, and 300 seats in the party hall, all in the main house of Restaurante Camelo. It is now even more enriched with the addition of an oriental tent that delights brides for wedding celebrations, with a capacity for 1000 people.",
+      "pt": "Em 25 anos, eles expandiram a capacidade para 150 lugares na sala principal, 200 lugares na sala Jorge Amado, 400 lugares ao ar livre no pátio e anexos, agora ainda mais agradáveis com uma pérgula de vinho Loureiro, e 300 lugares na sala de festas, todos na casa principal do Restaurante Camelo. Agora está ainda mais enriquecido com a adição de uma tenda oriental que encanta os noivos para celebrações de casamento, com capacidade para 1000 pessoas."
+    },
+    "address": "Rua de Santa Marta, 119, 4925-104 Viana do Castelo",
+    "latitude": 41.709926,
+    "longitude": -8.768016,
+    "categories": ["restaurants.takeout", "restaurants.reservation"]
+  },
+  {
     "image": "../assets/images/braseiro-mimosas.jpg",
     "name": "Braseiro das Mimosas",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "One of the best in this region, you sure wont be disappointed",
+      "pt": "Um dos melhores na região, não irá ficar desapontado"
     },
     "address": "R. André Padilha 9/F, Pintor",
     "latitude": 41.70491115638299,
     "longitude": -8.82589779047246,
-    "categories": ["restaurants.takeout"]
+    "categories": ["restaurants.takeout", "restaurants.reservation"]
   },
   {
     "image": "../assets/images/cerqueiras.jpg",
     "name": "Cerqueira",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "A cozy restaurant located in Praça da Liberdade, offering a delightful dining experience with a variety of traditional Portuguese dishes.",
+      "pt": "Um restaurante acolhedor localizado na Praça da Liberdade, oferecendo uma experiência gastronómica deliciosa com uma variedade de pratos tradicionais portugueses."
     },
     "address": "Praça da Liberdade, 4900-326 Viana do Castelo",
     "latitude": 41.690616124267805,
@@ -27,8 +39,8 @@
     "image": "../assets/images/dolce-viana.jpg",
     "name": "Dolce Viana",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "A charming pizzeria located on R. do Poço, offering a variety of delicious pizzas and Italian specialties.",
+      "pt": "Uma pizzaria encantadora localizada na R. do Poço, oferecendo uma variedade de pizzas deliciosas e especialidades italianas."
     },
     "address": "R. do Poço 44, 4900-519 Viana do Castelo",
     "latitude": 41.69268024100942,
@@ -39,8 +51,8 @@
     "image": "../assets/images/vianamar.jpg",
     "name": "VIANAMAR",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "VIANAMAR is a seafood restaurant located on Av. dos Combatentes da Grande Guerra, offering a wide selection of fresh and delicious fish dishes.",
+      "pt": "VIANAMAR é um restaurante de frutos do mar localizado na Av. dos Combatentes da Grande Guerra, oferecendo uma ampla seleção de pratos de peixe frescos e deliciosos."
     },
     "address": "Av. dos Combatentes da Grande Guerra nº201 203, 4900-544 Viana do Castelo",
     "latitude": 41.692989303114885,
@@ -51,8 +63,8 @@
     "image": "../assets/images/foz.webp",
     "name": "Foz Viana",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "Foz Viana is a charming restaurant located in Praça da Liberdade, offering a delightful variety of meat and fish dishes.",
+      "pt": "Foz Viana é um restaurante encantador localizado na Praça da Liberdade, oferecendo uma variedade deliciosa de pratos de carne e peixe."
     },
     "address": "Praça da Liberdade, 4900-040 Viana do Castelo",
     "latitude": 41.69083857982161,
@@ -63,8 +75,8 @@
     "image": "../assets/images/coral.jpg",
     "name": "Coral",
     "description": {
-      "en": "",
-      "pt": ""
+      "en": "Coral is a welcoming restaurant located at Av. de Cabo Verde 59, offering a cozy atmosphere and delicious dishes for reservation.",
+      "pt": "O Coral é um restaurante acolhedor localizado perot da praia do Coral, oferecendo um ambiente aconchegante e pratos deliciosos para reserva."
     },
     "address": "Av. de Cabo Verde 59, 4900-351 Viana do Castelo",
     "latitude": 41.68467980886898,

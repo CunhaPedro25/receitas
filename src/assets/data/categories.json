@@ -26,10 +26,26 @@
     },
     {
       "id": "meat",
-      "icon": "fish-outline",
+      "icon": "restaurant-outline",
       "translations": {
         "en": "Meat",
         "pt": "Carne"
+      }
+    },
+    {
+      "id": "seafood",
+      "icon": "fish-outline",
+      "translations": {
+        "en": "Seafood",
+        "pt": "Marisco"
+      }
+    },
+    {
+      "id": "dessert",
+      "icon": "ice-cream-outline",
+      "translations": {
+        "en": "Dessert",
+        "pt": "Sobremesa"
       }
     }
   ],
