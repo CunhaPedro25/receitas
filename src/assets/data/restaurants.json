@@ -75,8 +75,8 @@
     "image": "../assets/images/coral.jpg",
     "name": "Coral",
     "description": {
-      "en": "Coral is a welcoming restaurant located at Av. de Cabo Verde 59, offering a cozy atmosphere and delicious dishes for reservation.",
-      "pt": "O Coral é um restaurante acolhedor localizado perot da praia do Coral, oferecendo um ambiente aconchegante e pratos deliciosos para reserva."
+      "en": "Coral is a welcoming restaurant located close to Coral beach, offering a cozy atmosphere and delicious dishes for reservation.",
+      "pt": "O Coral é um restaurante acolhedor localizado perto da praia do Coral, oferecendo um ambiente aconchegante e pratos deliciosos para reserva."
     },
     "address": "Av. de Cabo Verde 59, 4900-351 Viana do Castelo",
     "latitude": 41.68467980886898,
