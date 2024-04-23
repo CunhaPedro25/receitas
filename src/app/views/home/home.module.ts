@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-import {CategoryChipComponent} from "../../components/category-chip/category-chip.component";
+import { CategoryChipModule } from "../../components/category-chip/category-chip.module";
 
 @NgModule({
   imports: [
@@ -13,8 +13,9 @@ import {CategoryChipComponent} from "../../components/category-chip/category-chi
     CommonModule,
     FormsModule,
     HomePageRoutingModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    CategoryChipModule
   ],
-    declarations: [HomePage, CategoryChipComponent]
+  declarations: [HomePage]
 })
 export class HomePageModule {}

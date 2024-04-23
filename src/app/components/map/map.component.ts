@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import * as Leaflet from "leaflet";
 
 @Component({
@@ -7,13 +7,16 @@ import * as Leaflet from "leaflet";
   styleUrls: ['./map.component.scss'],
   standalone: true
 })
-export class MapComponent implements AfterViewInit {
+export class MapComponent implements OnInit {
+  @Input() latitude!: number;
+  @Input() longitude!: number;
+
   constructor() { }
 
   private map: Leaflet.Map | undefined;
   private initMap(): void {
     this.map = Leaflet.map('map', {
-      center: [ 41.693859, -8.8494839 ],
+      center: [ this.latitude, this.longitude ],
       zoom: 17
     });
 
@@ -24,7 +27,19 @@ export class MapComponent implements AfterViewInit {
     });
 
     tiles.addTo(this.map);
+
+    const marker = Leaflet.marker([this.latitude, this.longitude], {
+      icon: new Leaflet.Icon({
+        iconSize: [50, 41],
+        iconAnchor: [13, 41],
+        iconUrl: 'assets/red-marker.svg',
+      }),
+      title: 'Riva'
+    }).addTo(this.map);
   }
 
-  ngAfterViewInit(): void { this.initMap(); }
+  ngOnInit(): void {
+    console.log('ngOnInit');
+    this.initMap();
+  }
 }

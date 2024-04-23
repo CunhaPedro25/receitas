@@ -18,9 +18,10 @@ export class RecipeService {
     }
   }
 
-  async getRecipeByName(name: string): Promise<Recipe> {
+  async getRecipeById(id: number): Promise<Recipe> {
     return await this.getAllRecipes().then((recipes: Recipe[]) => {
-      return <Recipe>recipes.find(recipe => recipe.name === name);
+      console.log(<Recipe>recipes[id]);
+      return <Recipe>recipes[id];
     })
   }
 }

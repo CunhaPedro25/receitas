@@ -1,29 +1,32 @@
 <ion-content [fullscreen]="true">
-  <div style="display: flex; justify-content: space-between; padding: 0.5em 1em">
-    <p>{{ languageService.translate("recipes") }}</p>
-    <ion-button>Filter</ion-button>
+  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="filterData()"></ion-searchbar>
+
+  <div class="selector">
+    <ion-select [(ngModel)]="selectedOption" (ionChange)="onChange()">
+      <ion-select-option value="recipe">{{ languageService.translate("options.recipes") }}</ion-select-option>
+      <ion-select-option value="restaurant">{{ languageService.translate("options.restaurants") }}</ion-select-option>
+    </ion-select>
   </div>
 
   <div class="container">
-    <div *ngIf="recipes.length === 0">
-      <p>{{ 'No recipes' }}</p>
+    <div *ngIf="filteredData && filteredData.length === 0">
+      <p>{{  languageService.translate("theres_no") + ' ' + selectedOption + 's' }}</p>
     </div>
 
-    <div class="card-container" *ngIf="recipes.length > 0">
-      <ion-card *ngFor="let recipe of recipes">
-        <ion-img [src]="recipe.image" alt=""/>
+    <div class="card-container" *ngIf="filteredData && filteredData.length > 0">
+      <ion-card *ngFor="let item of filteredData; let i = index" (click)="openPage(i)">
+        <ion-img [src]="item.image" alt=""/>
         <ion-card-header>
-          <ion-card-title>{{ recipe.name }}</ion-card-title>
+          <ion-card-title>{{ item.name }}</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-          <ion-card-subtitle>{{ recipe.description[currentLanguage]  }}</ion-card-subtitle>
-          <div>
-            <app-category-chip *ngFor="let category of recipe.categories" [categoryName]="category"></app-category-chip>
+          <ion-card-subtitle>{{ item.description?.[currentLanguage]  }}</ion-card-subtitle>
+          <div class="chips">
+            <app-category-chip [categoryName]="item.categories[0]"></app-category-chip>
+            <ion-chip *ngIf="item.categories.length > 1">{{ item.categories.length - 1 }} +</ion-chip>
           </div>
         </ion-card-content>
       </ion-card>
     </div>
   </div>
-
-
 </ion-content>

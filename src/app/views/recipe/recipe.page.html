@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true" *ngIf="recipe">
+  <div class="header">
+    <ion-buttons>
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <h1>{{ languageService.translate("recipe") }}</h1>
+  </div>
+
+  <div class="img-container">
+    <ion-img [src]="recipe.image" alt=""></ion-img>
+  </div>
+
+  <div class="container">
+
+    <div class="title">
+      <h1>{{ recipe.name }}</h1>
+      <p>{{ recipe.description[currentLanguage] }}</p>
+      <div class="chips">
+        <app-category-chip *ngFor="let category of recipe.categories" [categoryName]="category"></app-category-chip>
+      </div>
+    </div>
+
+    <div class="ingredients">
+      <h2>{{ languageService.translate("ingredients") }}</h2>
+      <ul>
+        <li *ngFor="let ingredient of recipe.ingredients[currentLanguage]">{{ ingredient }} </li>
+      </ul>
+    </div>
+
+    <div class="preparation">
+      <h2>{{ languageService.translate("preparation_method") }}</h2>
+      <div *ngFor="let step of recipe.preparation[currentLanguage]; let i = index">
+        <p class="step-title">{{ languageService.translate("step" ) + " " + i }}</p>
+        <p>{{ step }}</p>
+      </div>
+    </div>
+  </div>
+</ion-content>

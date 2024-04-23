@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true" *ngIf="restaurant">
+  <div class="header">
+    <ion-buttons>
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <h1>{{ languageService.translate("restaurant") }}</h1>
+  </div>
+
+  <div class="img-container">
+    <ion-img [src]="restaurant.image" alt=""></ion-img>
+  </div>
+
+  <div class="container">
+
+    <div class="title">
+      <h1>{{ restaurant.name }}</h1>
+      <p>{{ restaurant.description[currentLanguage] }}</p>
+      <div class="chips">
+        <app-category-chip *ngFor="let category of restaurant.categories" [categoryName]="category"></app-category-chip>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <app-map [latitude]="restaurant.latitude" [longitude]="restaurant.longitude" ></app-map>
+
+      <ion-button [href]=" 'https://www.google.com/maps/?q=' + restaurant.latitude + ',' + restaurant.longitude " >{{ languageService.translate("see_in") + " " + "Google Maps" }}</ion-button>
+    </div>
+  </div>
+</ion-content>

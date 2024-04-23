@@ -1,0 +1,56 @@
+h1, h2, ul, p {
+  margin: 0;
+}
+
+h1, h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: var(--ion-card-background);
+  padding: 0.5rem 0.5rem;
+  gap: 0.5rem;
+}
+
+.img-container {
+  height: 25vh;
+  width: 100%;
+
+  overflow: hidden;
+
+  ion-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    object-position: center;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .title, .ingredients, .preparation{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  .title{
+    background-color: var(--ion-card-background);
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .step-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

@@ -8,10 +8,10 @@ import { Category } from "../models/category.model";
 export class CategoryService {
   constructor(private dataService: DataService) {}
 
-  async getAllCategories(): Promise<Category[]> {
+  async getAllCategories(source: string): Promise<Category[]> {
     try {
       const data = await this.dataService.fetchData('assets/data/categories.json');
-      return data as Category[];
+      return (data as any)[source] as Category[];
     } catch (error) {
       console.error('Error fetching categories:', error);
       throw error;
@@ -19,8 +19,8 @@ export class CategoryService {
   }
 
   async getCategoryByName(name: string): Promise<Category> {
-    return await this.getAllCategories().then((categories: Category[]) => {
-      return <Category>categories.find(category => category.id === name);
+    return await this.getAllCategories(name.split(".")[0]).then((categories: Category[]) => {
+      return <Category>categories.find(category => category.id === name.split(".")[1]);
     })
   }
 }

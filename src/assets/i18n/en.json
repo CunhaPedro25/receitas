@@ -1,7 +1,17 @@
 {
   "language": "en",
   "language_name": "English",
-  "recipes": "Recipes",
+  "theres_no": "There's no",
+  "recipe": "Recipe",
+  "restaurant": "Restaurant",
+  "ingredients": "Ingredients",
+  "step": "Step",
+  "preparation_method": "Preparation Method",
+  "see_in": "See in",
+  "options": {
+    "recipes": "Recipes",
+    "restaurants": "Restaurants"
+  },
   "tabs": {
     "home": "Home",
     "history": "History",

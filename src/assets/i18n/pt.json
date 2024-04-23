@@ -1,10 +1,20 @@
 {
   "language": "pt",
   "language_name": "Português",
-  "recipes": "Receitas",
+  "theres_no": "Não há",
+  "recipe": "Receita",
+  "restaurant": "Restaurante",
+  "ingredients": "Ingredientes",
+  "step": "Passo",
+  "preparation_method": "Metodo Preparação",
+  "see_in": "Ver no",
+  "options": {
+    "recipes": "Receitas",
+    "restaurants": "Restaurantes"
+  },
   "tabs": {
     "home": "Início",
-    "history": "Historia",
+    "history": "História",
     "about": "Sobre"
   }
 }

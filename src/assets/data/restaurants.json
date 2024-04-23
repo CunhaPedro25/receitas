@@ -1,0 +1,14 @@
+[
+  {
+    "image": "../assets/images/braseiro-mimosas.jpg",
+    "name": "Braseiro das Mimosas",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "R. André Padilha 9/F, Pintor",
+    "latitude": 41.70491115638299,
+    "longitude": -8.82589779047246,
+    "categories": ["restaurants.takeout"]
+  }
+]
