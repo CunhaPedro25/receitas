@@ -20,7 +20,6 @@ export class RecipeService {
 
   async getRecipeById(id: number): Promise<Recipe> {
     return await this.getAllRecipes().then((recipes: Recipe[]) => {
-      console.log(<Recipe>recipes[id]);
       return <Recipe>recipes[id];
     })
   }

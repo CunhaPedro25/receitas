@@ -1,0 +1,58 @@
+{
+  "name": "Pedro Cunha",
+  "image": "assets/images/avatar.png",
+  "quick_info": [
+    {
+      "type": "age",
+      "value": {
+        "en": "21 years old",
+        "pt": "21 anos"
+      }
+    },
+    {
+      "type": "locality",
+      "value": {
+        "en": "Serreleis",
+        "pt": "Serreleis"
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "type": {
+        "en": "School Email",
+        "pt": "Email Escola"
+      },
+      "value": "cunha.pedro@ipvc.pt"
+    },
+    {
+      "type": {
+        "en": "Personal Email",
+        "pt": "Email Pessoal"
+      },
+      "value": "pedro10cunha@gmail.com"
+    }
+  ],
+  "links": [
+    {
+      "icon": "logo-github",
+      "name": "Github",
+      "path": "https://github.com/CunhaPedro25/"
+    },
+    {
+      "icon": "logo-instagram",
+      "name": "Instagram",
+      "path": "www.instagram.com/cunha.pedro25/"
+    },
+    {
+      "icon": "logo-twitter",
+      "name": "Twitter",
+      "path": "https://twitter.com/Cunha_Pedro_25"
+    },
+    {
+      "icon": "logo-linkedin",
+      "name": "Linkedin",
+      "path": "https://www.linkedin.com/in/cunhapedro25/"
+    }
+  ]
+}

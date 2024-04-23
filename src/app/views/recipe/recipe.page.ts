@@ -21,7 +21,6 @@ export class RecipePage implements OnInit {
     this.route.params.subscribe(async params => {
       this.recipeIndex = +params['id'];
       this.recipe = await this.recipeService.getRecipeById(this.recipeIndex);
-      console.log(this.recipe.name);
     });
   }
 }

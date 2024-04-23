@@ -1,26 +1,28 @@
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" *ngIf="about">
   <div class="banner"></div>
 
   <div class="container">
-    <div class="avatar">
-      <img src="" alt="avatar">
-    </div>
-    <h1>Pedro Cunha</h1>
-    <div class="quick-info">
+    <div class="info">
+      <div class="avatar">
+        <img [src]="about.image" alt="avatar">
+      </div>
+      <h1>{{about.name}}</h1>
+      <div class="quick-info">
+        <p *ngFor="let info of about.quick_info">{{ info.value[currentLanguage] }}</p>
+      </div>
     </div>
 
     <h2>Contacts</h2>
     <div class="contacts">
-      <p>cunha.pedroipvc.pt</p>
-      <p>pedro10cunhagmail.com</p>
+      <p *ngFor="let contact of about.contacts">{{contact.type[currentLanguage]}}: {{contact.value}}</p>
     </div>
 
     <h2>Links</h2>
     <div class="links">
-      <div class="link">
-        <ion-icon name="github"></ion-icon>
-        <p>Github</p>
-      </div>
+      <a class="link" *ngFor="let link of about.links" [href]="link.path">
+        <ion-icon [name]="link.icon"></ion-icon>
+        <p>{{ link.name }}</p>
+      </a>
     </div>
 
   </div>

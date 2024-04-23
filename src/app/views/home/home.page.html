@@ -1,7 +1,13 @@
 <ion-content [fullscreen]="true">
-  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="filterData()"></ion-searchbar>
+  <div class="header">
+    <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="filterData()"></ion-searchbar>
+    <ion-select [(ngModel)]="currentLanguage" (ionChange)="switchLanguage()">
+      <ion-select-option value="pt">PT</ion-select-option>
+      <ion-select-option value="en">EN</ion-select-option>
+    </ion-select>
+  </div>
 
-  <div class="selector">
+  <div class="selector" *ngIf="selectedOption">
     <ion-select [(ngModel)]="selectedOption" (ionChange)="onChange()">
       <ion-select-option value="recipe">{{ languageService.translate("options.recipes") }}</ion-select-option>
       <ion-select-option value="restaurant">{{ languageService.translate("options.restaurants") }}</ion-select-option>
@@ -15,12 +21,12 @@
 
     <div class="card-container" *ngIf="filteredData && filteredData.length > 0">
       <ion-card *ngFor="let item of filteredData; let i = index" (click)="openPage(i)">
-        <ion-img [src]="item.image" alt=""/>
-        <ion-card-header>
-          <ion-card-title>{{ item.name }}</ion-card-title>
-        </ion-card-header>
+        <div class="image">
+          <ion-img [src]="item.image" alt=""/>
+        </div>
         <ion-card-content>
-          <ion-card-subtitle>{{ item.description?.[currentLanguage]  }}</ion-card-subtitle>
+          <ion-card-title class="title">{{ item.name }}</ion-card-title>
+          <ion-card-subtitle class="description">{{ item.description?.[currentLanguage]  }}</ion-card-subtitle>
           <div class="chips">
             <app-category-chip [categoryName]="item.categories[0]"></app-category-chip>
             <ion-chip *ngIf="item.categories.length > 1">{{ item.categories.length - 1 }} +</ion-chip>

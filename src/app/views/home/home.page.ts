@@ -10,7 +10,7 @@ import { RestaurantService } from "../../services/restaurant.service";
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
-  selectedOption: string = "recipe";
+  selectedOption: string | undefined = undefined;
   data: any[] | undefined;
   filteredData: any[] | undefined;
   currentLanguage: string = "";
@@ -18,8 +18,10 @@ export class HomePage implements OnInit {
 
   constructor(private router: Router, protected languageService: LanguageService, private recipeService: RecipeService, private restaurantService: RestaurantService) {}
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
     this.currentLanguage = this.languageService.currentLanguage;
+    await this.languageService.switchLanguage(this.currentLanguage)
+    this.selectedOption = "recipe";
     this.onChange();
   }
 
@@ -48,6 +50,11 @@ export class HomePage implements OnInit {
         });
         break;
     }
+  }
+
+  switchLanguage(): void {
+    this.languageService.switchLanguage(this.currentLanguage);
+    this.onChange();
   }
 
   async openPage(index: number): Promise<void> {

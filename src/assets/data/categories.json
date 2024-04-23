@@ -23,6 +23,14 @@
         "en": "Fish",
         "pt": "Peixe"
       }
+    },
+    {
+      "id": "meat",
+      "icon": "fish-outline",
+      "translations": {
+        "en": "Meat",
+        "pt": "Carne"
+      }
     }
   ],
   "restaurants": [
@@ -40,6 +48,22 @@
       "translations": {
         "en": "Takeouts",
         "pt": "Encomendas"
+      }
+    },
+    {
+      "id": "pizzas",
+      "icon": "pizza-outline",
+      "translations": {
+        "en": "Pizzas",
+        "pt": "Pizzas"
+      }
+    },
+    {
+      "id": "reservation",
+      "icon": "calendar-clear-outline",
+      "translations": {
+        "en": "Reservation",
+        "pt": "Reservas"
       }
     }
   ]

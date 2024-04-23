@@ -10,5 +10,65 @@
     "latitude": 41.70491115638299,
     "longitude": -8.82589779047246,
     "categories": ["restaurants.takeout"]
+  },
+  {
+    "image": "../assets/images/cerqueiras.jpg",
+    "name": "Cerqueira",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "Praça da Liberdade, 4900-326 Viana do Castelo",
+    "latitude": 41.690616124267805,
+    "longitude": -8.827966096945762,
+    "categories": ["restaurants.reservation"]
+  },
+  {
+    "image": "../assets/images/dolce-viana.jpg",
+    "name": "Dolce Viana",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "R. do Poço 44, 4900-519 Viana do Castelo",
+    "latitude": 41.69268024100942,
+    "longitude": -8.828296399863122,
+    "categories": ["restaurants.pizzas"]
+  },
+  {
+    "image": "../assets/images/vianamar.jpg",
+    "name": "VIANAMAR",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "Av. dos Combatentes da Grande Guerra nº201 203, 4900-544 Viana do Castelo",
+    "latitude": 41.692989303114885,
+    "longitude": -8.829744942392143,
+    "categories": ["recipes.fish"]
+  },
+  {
+    "image": "../assets/images/foz.webp",
+    "name": "Foz Viana",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "Praça da Liberdade, 4900-040 Viana do Castelo",
+    "latitude": 41.69083857982161,
+    "longitude": -8.827361460499533,
+    "categories": ["recipes.meat","recipes.fish"]
+  },
+  {
+    "image": "../assets/images/coral.jpg",
+    "name": "Coral",
+    "description": {
+      "en": "",
+      "pt": ""
+    },
+    "address": "Av. de Cabo Verde 59, 4900-351 Viana do Castelo",
+    "latitude": 41.68467980886898,
+    "longitude":-8.846231585832,
+    "categories": ["restaurants.reservation"]
   }
 ]

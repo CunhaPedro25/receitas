@@ -1,31 +1,157 @@
 [
   {
-    "image": "https://pt.petitchef.com/imgupl/recipe/torta-viana--65956p86245.jpg",
+    "image": "assets/images/torta-viana.webp",
     "name": "Torta de Viana",
     "description": {
-      "en": "A rich and indulgent chocolate cake that's perfect for any occasion.",
-      "pt": "Um bolo de chocolate rico e indulgente, perfeito para qualquer ocasião."
+      "en": "A delicious traditional Portuguese dessert from Viana do Castelo.",
+      "pt": "Uma deliciosa sobremesa tradicional portuguesa de Viana do Castelo."
     },
     "ingredients": {
       "en": [
-        "2 cups Flour",
-        "1 1/2 cups Sugar"
+        "7.5g Baking powder",
+        "150g Sugar",
+        "180g Wheat flour",
+        "9 Eggs",
+        "10g Cornstarch",
+        "75g Sugar",
+        "70ml Water",
+        "8 Egg yolks"
       ],
       "pt": [
-        "2 cups Flour",
-        "1 1/2 cups Sugar"
+        "7,5g de Fermento em pó",
+        "150 g de Açúcar",
+        "180 g de Farinha de trigo",
+        "9 ovos",
+        "10g de amido de milho",
+        "75g de açúcar",
+        "70ml de água",
+        "8 gemas"
       ]
     },
     "preparation": {
       "en": [
-        "cook",
-        "take out"
+        "Beat the eggs and gradually add the sugar, continuing to beat until a voluminous and whitish cream is obtained.",
+        "Add the flour and baking powder, mixing well.",
+        "Spread in a rectangular tray previously greased with parchment paper and flour, and bake in a preheated oven at 185ºC for 20-25 minutes.",
+        "For the Filling: Mix the sugar with the cornstarch, add the water and egg yolks, mix well.",
+        "Bring to a boil until thickened.",
+        "Place in a bowl and let it cool.",
+        "When the dough is ready, place it on a kitchen towel, and fill the side facing up with the warm cake, and start rolling."
       ],
       "pt": [
-        "cozinhe",
-        "retire"
+        "Bater os ovos e aos poucos adicionar o açúcar, continuando sempre a bater, até que fique um creme volumoso e esbranquiçado.",
+        "Acrescentar a farinha e o fermento, envolvendo bem.",
+        "Estender num tabuleiro rectangular previamente untado com papel vegetal e farinha e levar ao forno a pré-aquecido a 185ºC durante 20/25min.",
+        "Para o Recheio: Misturar o açúcar com a amido de milho, acrescentar a água e a gemas, envolver.",
+        "Levar ao lume até engrossar.",
+        "Colocar numa tigela e deixar arrefecer.",
+        "Quando a massa estiver feita, colocar a mesma sobre um pano de cozinha, e rechear a face virada para cima ainda com o bolo morno, e começar a enrolar."
       ]
     },
     "categories": ["recipes.cake"]
+  },
+  {
+    "image": "assets/images/bacalhau-viana.jpeg",
+    "name": "Bacalhau à Moda de Viana",
+    "description": {
+      "en": "A traditional Portuguese dish from Viana do Castelo, consisting of codfish cooked with cabbage and onions, seasoned with olive oil, salt, and pepper.",
+      "pt": "Um prato tradicional português de Viana do Castelo, composto por bacalhau cozido com couve e cebolas, temperado com azeite, sal e pimenta."
+    },
+    "ingredients": {
+      "en": [
+        "4 codfish fillets",
+        "1 cabbage",
+        "6 medium onions",
+        "2.5 dl olive oil",
+        "Salt and pepper to taste"
+      ],
+      "pt": [
+        "4 postas de bacalhau",
+        "1 couve lombarda",
+        "6 cebolas médias",
+        "2.5dl de azeite",
+        "Sal e pimenta q.b."
+      ]
+    },
+    "preparation": {
+      "en": [
+        "Soak the codfish fillets.",
+        "Wash the cabbage leaves in cold water.",
+        "Peel and boil potatoes.",
+        "Wrap the codfish fillets in cabbage leaves and secure with thick thread to bake in the oven.",
+        "While in the oven, slice the onions and brown them in olive oil in a frying pan.",
+        "Remove the codfish fillets from the oven when the cabbage leaves are completely dry.",
+        "Remove the thread and place on a serving dish, along with the sliced boiled potatoes.",
+        "Finally, place the onions on top of the codfish fillets and drizzle with plenty of olive oil.",
+        "The most traditional accompaniment is cornbread."
+      ],
+      "pt": [
+        "A preparação começa com a demolha do bacalhau.",
+        "Passar folhas de couve por água fria.",
+        "Descascar e cozer batatas.",
+        "As postas de bacalhau são envolvidas na couve e seguradas com linha grossa, para se levar ao forno.",
+        "Enquanto estão no forno, cortam-se as cebolas em rodelas e aloura-se em azeite na frigideira.",
+        "As postas são retiradas do forno quando as folhas de couve secarem completamente.",
+        "Retira-se depois a linha e coloca-se numa travessa, juntamente com as rodelas de batatas cozidas.",
+        "Para finalizar, mete-se a cebola no topo da posta e rega-se com bastante azeite.",
+        "O acompanhamento mais tradicional é a broa de milho."
+      ]
+    },
+    "categories": ["recipes.fish"]
+  },
+  {
+    "image": "assets/images/rojoes.jpg",
+    "name": "Rojões à Moda do Minho",
+    "description": {
+      "en": "A traditional dish from the Minho region of Portugal, consisting of pork chunks cooked with various ingredients and spices.",
+      "pt": "Um prato tradicional da região do Minho em Portugal, composto por pedaços de carne de porco cozidos com vários ingredientes e especiarias."
+    },
+    "ingredients": {
+      "en": [
+        "Approximately 1.3 kg of pork chunks (from the leg of pork)",
+        "Lard",
+        "Tripe (for frying)",
+        "Cooked pig's blood",
+        "Pig's liver",
+        "Potatoes (for frying)",
+        "Lard or oil"
+      ],
+      "pt": [
+        "+/- 1300 kg de rojões (perna de porco) partido aos nacos",
+        "Redenho",
+        "Tripa enfarinhada",
+        "Sangue de porco cozido",
+        "Fígado de porco",
+        "Batatas para fritar",
+        "Banha ou óleo"
+      ]
+    },
+    "preparation": {
+      "en": [
+        "Start by preparing the marinade. Marinate the pork chunks and lard preferably overnight.",
+        "In a spacious pot, place the lard (or oil) to cover the bottom. Strain the marinade and add only the pork chunks, not the lard.",
+        "Let it cook slowly, stirring occasionally and adding white wine whenever necessary, but never water.",
+        "In a non-stick frying pan, place the lard (without any fat) and fry until golden brown. Once ready, set aside.",
+        "Meanwhile, in a pot, place water, season with salt and add 1 bay leaf. Boil the blood along with the liver.",
+        "It cooks quickly, so as soon as it's cooked, turn off the heat and keep everything in the pot with the water.",
+        "Fry the potatoes cut into cubes and then fry the tripe strips.",
+        "After the pork chunks are done, remove the blood and liver (reserving the cooking water to make papas de sarrabulho), chop them into pieces, and add to the pork chunks, along with the fried potatoes, fried tripe, and lard.",
+        "Carefully mix everything to blend the flavors.",
+        "Serve sprinkled with cumin, garnish with lemon and parsley (or pickles). Serve with dry rice and lettuce salad."
+      ],
+      "pt": [
+        "Comece por preparar a marinada, coloque os rojões e o redenho a marinar de preferência de um dia para o outro.",
+        "Num tacho espaçoso coloque a banha (eu coloquei óleo) a cobrir o fundo. Coe a marinada e junte somente os rojões, o redenho não.",
+        "Deixe rijar lentamente, mexendo de vez em quando acrescentando vinho branco sempre que necessário e nunca água.",
+        "Numa frigideira anti-aderente coloque o redenho sem qualquer gordura (pois vai largar bastante), vá virando e deixe ficar douradinhos. Assim que estiverem prontos reserve.",
+        "Entretanto num tacho coloque água, tempere com sal e 1 folha de loureiro e coza o sangue juntamente com o fígado.",
+        "Coze rápido, por isso assim que estiver cozido, desligue e mantenha tudo dentro do tacho com a água.",
+        "Frite as batatas partidas aos cubos e de seguida frite a tripa enfarinhada partida às tirinhas.",
+        "Depois dos rojões prontos, retire o sangue e fígado (reservando a água da cozedura para fazer papas de sarrabulho), parta aos bocados e junte aos rojões, assim como as batatas fritas, a tripa enfarinhada e o redenho.",
+        "Envolva tudo com cuidado para se misturarem os sabores.",
+        "Sirva polvilhando com cominhos, enfeite com limão e salsa (ou pickles). Acompanhe com arroz seco e salada de alface."
+      ]
+    },
+    "categories": ["recipes.meat"]
   }
 ]

@@ -7,7 +7,7 @@ import axios from 'axios';
 export class DataService {
   constructor() {}
 
-  async fetchData(filePath: string): Promise<any[]> {
+  async fetchData(filePath: string): Promise<any> {
     return axios.get<any>(`${filePath}`).then(innerResponse => innerResponse.data)
   }
 }

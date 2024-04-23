@@ -21,7 +21,6 @@ export class RestaurantPage implements OnInit {
     this.route.params.subscribe(async params => {
       this.restaurantIndex = +params['id'];
       this.restaurant = await this.restaurantService.getRestaurantById(this.restaurantIndex);
-      console.log(this.restaurant.name);
     });
   }
 }

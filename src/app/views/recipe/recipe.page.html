@@ -30,7 +30,7 @@
     <div class="preparation">
       <h2>{{ languageService.translate("preparation_method") }}</h2>
       <div *ngFor="let step of recipe.preparation[currentLanguage]; let i = index">
-        <p class="step-title">{{ languageService.translate("step" ) + " " + i }}</p>
+        <p class="step-title">{{ languageService.translate("step" ) + " " + (i+1) }}</p>
         <p>{{ step }}</p>
       </div>
     </div>

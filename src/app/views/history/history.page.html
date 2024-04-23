@@ -1,16 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Add
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" *ngIf="history">
+  <div class="container">
+    <div class="image">
+      <ion-img [src]="history.image"></ion-img>
+    </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Add</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <h1>{{ history.title }}</h1>
 
+    <div class="paragraphs">
+      <p *ngFor="let paragraph of history.paragraphs[currentLanguage]">{{ paragraph }}</p>
+    </div>
+
+    <div class="sources">
+      <h1>Sources</h1>
+      <a *ngFor="let source of history.sources; let i = index" [href]="source.path">
+        [{{ i+1 }}]: {{ source.title }}
+      </a>
+    </div>
+  </div>
 </ion-content>

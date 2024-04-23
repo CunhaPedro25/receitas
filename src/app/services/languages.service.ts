@@ -5,28 +5,37 @@ import axios from 'axios';
   providedIn: 'root'
 })
 export class LanguageService {
-  public currentLanguage: string = 'en'; // Default language
+  public currentLanguage: string = 'pt'; // Default language
   private translations: any = {}; // Object to store translations
 
   constructor() {
-    this.loadTranslations();
+    this.loadTranslations().then(() => {
+      console.log('Translations loaded successfully.');
+    }).catch(error => {
+      console.error(`Failed to load translations for ${this.currentLanguage}:`, error);
+    });
   }
 
   // Load translations for the current language
-  loadTranslations(): void {
-    axios.get(`assets/i18n/${this.currentLanguage}.json`)
-      .then(response => {
-        this.translations = response.data;
-      })
-      .catch(error => {
-        console.error(`Failed to load translations for ${this.currentLanguage}:`, error);
-      });
+  async loadTranslations(): Promise<void> {
+    return new Promise<void>((resolve, reject) => {
+      axios.get(`assets/i18n/${this.currentLanguage}.json`)
+        .then(response => {
+          this.translations = response.data;
+          resolve();
+        })
+        .catch(error => {
+          reject(error);
+        });
+    });
   }
 
   // Switch to a different language
-  switchLanguage(language: string): void {
+  async switchLanguage(language: string): Promise<void> {
     this.currentLanguage = language;
-    this.loadTranslations();
+    await this.loadTranslations().then().catch(error => {
+      console.error(`Failed to switch translations to ${language}:`, error);
+    });
   }
 
   // Translate a key to the current language

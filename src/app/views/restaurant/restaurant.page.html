@@ -15,6 +15,7 @@
     <div class="title">
       <h1>{{ restaurant.name }}</h1>
       <p>{{ restaurant.description[currentLanguage] }}</p>
+      <p>{{ restaurant.address }}</p>
       <div class="chips">
         <app-category-chip *ngFor="let category of restaurant.categories" [categoryName]="category"></app-category-chip>
       </div>

@@ -28,18 +28,17 @@ export class MapComponent implements OnInit {
 
     tiles.addTo(this.map);
 
-    const marker = Leaflet.marker([this.latitude, this.longitude], {
+    Leaflet.marker([this.latitude, this.longitude], {
       icon: new Leaflet.Icon({
         iconSize: [50, 41],
         iconAnchor: [13, 41],
-        iconUrl: 'assets/red-marker.svg',
+        iconUrl: 'assets/images/pin.svg',
       }),
       title: 'Riva'
     }).addTo(this.map);
   }
 
   ngOnInit(): void {
-    console.log('ngOnInit');
     this.initMap();
   }
 }
